@@ -1,0 +1,43 @@
+/* Styling for the reservation container */
+
+.division_box {
+    width: 80%;
+    padding-top: 10%;
+}
+
+
+/* Styling for each reservation division */
+
+.division {
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Styling for reservation details */
+
+.division p {
+    margin: 5px 0;
+}
+
+
+/* Styling for the reservation title */
+
+.division_box h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-image: url('../assets/takeeats.png');
+    /* Remplacez par le chemin de votre image */
+    background-size: 11%;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}

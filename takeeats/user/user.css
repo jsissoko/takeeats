@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+body {
+    background-image: url('../assets/takeeats.png');
+    /* Remplacez par le chemin de votre image */
+    background-size: 11%;
+}

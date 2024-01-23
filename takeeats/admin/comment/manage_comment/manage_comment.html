@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mise à jour du Commentaire</title>
+    <link rel="stylesheet" href="../../../utils/style.css">
+    <link rel="stylesheet" href="manage_comment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="overlay"></div>
+
+    <div class="box">
+        <h1>Ajouter un Commentaire</h1>
+
+        <form>
+            <div class="inputBox">
+                <input type="text" id="id_restaurant" required>
+                <label for="id_restaurant">Identifiant du restaurant</label>
+            </div>
+
+            <div class="inputBox">
+
+                <textarea name="id_restaurant" id="content" cols="30" rows="10"></textarea>
+                <label for="content">Contenu</label>
+            </div>
+
+
+
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+    <script src="manage_comment.js"></script>
+</body>
+
+</html>

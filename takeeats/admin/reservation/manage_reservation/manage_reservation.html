@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mise à jour de la reservation</title>
+    <link rel="stylesheet" href="../../../utils/style.css">
+    <link rel="stylesheet" href="manage_reservation.css">
+    <link rel="stylesheet" href="../../../utils/stylo.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="../../../utils/auth.js"></script>
+</head>
+
+<body>
+
+    <div id="overlay"></div>
+
+    <div class="box">
+        <h1>Modifier/Ajouter une reservation</h1>
+
+        <form>
+            <div class="inputBox">
+                <input type="text" id="name_reservation" required>
+                <label for="name_reservation">Nom de réservation</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" id="id_users" required>
+                <label for="id_users">Identifiant de l'utilisateur</label>
+            </div>
+
+
+            <div class="inputBox">
+                <input type="number" id="id_restaurant" required>
+                <label for="id_restaurant">Identifiant du restaurant</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" id="number_of_People" required>
+                <label for="number_of_People">Nombre de personnes</label>
+            </div>
+
+
+            <div class="inputBox">
+                <input type="datetime" id="date_reservation">
+                <label for="date_reservation">Date et heure de la réservation</label>
+                <div class="icon pop-up"></div>
+            </div>
+
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+    <script src="../../../utils/burger.js"></script>
+    <script src="manage_reservation.js"></script>
+</body>
+
+</html>

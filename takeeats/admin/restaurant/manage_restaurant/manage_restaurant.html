@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mise à jour du restaurant</title>
+    <link rel="stylesheet" href="../../../utils/style.css">
+    <link rel="stylesheet" href="manage_restaurant.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <div class="box">
+
+
+        <form method="post" enctype="multipart/form-data">
+            <div class="inputBox">
+                <input type="text" id="name" name="name" required>
+                <label for="name">Name</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="country" name="country" required>
+                <label for="country">Pays</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="street_number" name="street_number" required>
+                <label for="street_number">Numéro de rue</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" id="postal_code" name="postal_code" required>
+                <label for="postal_code">Code postal</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="street_name" name="street_name" required>
+                <label for="street_name">Nom de rue</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="tel" id="phone" name="phone" required>
+                <label for="phone">Téléphone</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" id="number_of_place" name="number_of_place" required>
+                <label for="number_of_place">Nombre de places</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="description" name="description" required>
+                <label for="description">Description</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="file" id="picture" name="picture" accept="image/*">
+                <label for="picture">Image</label>
+            </div>
+
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+    <script src="manage_restaurant.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+
+/* Styles pour les smartphones (largeur d'écran jusqu'à 700px) */
+
+@media screen and (max-width: 700px) {
+    .product {
+        height: auto;
+        /* Ajustez la hauteur en conséquence */
+    }
+    .product-box {
+        padding: 20px;
+        /* Ajustez le rembourrage en conséquence */
+    }
+    .product-box h2 {
+        font-size: 1.3em;
+        /* Ajustez la taille de la police en conséquence */
+    }
+    .product-box p {
+        font-size: 1em;
+        /* Ajustez la taille de la police en conséquence */
+    }
+    .product-box button {
+        padding: 8px 16px;
+        /* Ajustez le rembourrage en conséquence */
+        font-size: 0.9em;
+        /* Ajustez la taille de la police en conséquence */
+    }
+}

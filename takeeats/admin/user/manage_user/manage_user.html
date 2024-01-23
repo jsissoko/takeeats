@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mise à jour de l'utilisateur</title>
+    <link rel="stylesheet" href="../../../utils/style.css">
+    <link rel="stylesheet" href="manage_user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="../../../utils/auth.js"></script>
+</head>
+
+<body>
+
+    <div id="overlay"></div>
+
+    <div class="box">
+        <h1>Modifier les informations utilisateur</h1>
+
+        <form>
+            <div class="inputBox">
+                <input type="text" id="firstname" required>
+                <label for="firstname">Prénom</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="lastname" required>
+                <label for="lastname">Nom</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="email" required>
+                <label for="email">E-mail</label>
+            </div>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+    <script src="../../../utils/burger.js"></script>
+    <script src="manage_user.js"></script>
+</body>
+
+</html>

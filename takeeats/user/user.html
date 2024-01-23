@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Modifier mon mot de passe</title>
+    <link rel="stylesheet" type="text/css" href="user.css">
+    <link rel="stylesheet" href="../utils/style.css">
+    <link rel="stylesheet" href="../utils/stylo.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body id="main">
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="../admin/restaurant/restaurant.html" class="admin">Admin</a></li>
+                <li><a href="../restaurant/restaurant.html">Restaurants</a></li>
+                <li><a href="../comment/comment.html">Commentaires</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
+                <li><a href="../user/user.html">Mon Profil</a></li>
+                <li><a href="../reservation/reservation.html">Ma réservation</a></li>
+
+                <li> <a href="../login/login.html?logout=true" class="logout"> Déconnexion</a></li>
+            </ul>
+            <h1 class="logo"><a href="../accueil/accueil.html">Takeeats</a></h1>
+        </div>
+    </nav>
+
+
+    <div class="box">
+
+        <h1>Modifier mes informations</h1>
+
+        <form>
+            <div class="inputBox">
+                <input type="text" id="firstname" name="firstname">
+                <label>Prénom</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" id="lastname" name="lastname">
+                <label>Nom</label>
+            </div>
+            <div class="inputBox">
+                <input type="password" id="password" name="pwd" required>
+                <label>Nouveau mot de passe</label>
+            </div>
+            <input type="submit" value="Modifier">
+
+    </div>
+    <script src="user.js"></script>
+</body>
+
+</html>
