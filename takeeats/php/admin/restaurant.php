@@ -27,7 +27,7 @@ switch ($method["choice"]  ?? null ) {
     case 'select':
         // Dans cette case je récupère tous les restaurants 
         $req = $db->query("SELECT * FROM restaurant ");
-        $req->execute([$method['id_restaurant']]);
+        // $req->execute([$method['id_restaurant']]);
 
         // J'affecte la totalité de mes résultats à la variable $restaurants
         $restaurants = $req->fetchAll(PDO::FETCH_ASSOC);

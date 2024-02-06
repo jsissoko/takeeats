@@ -8,7 +8,7 @@
 }
 
 .html {
-    font-size: 62.5%;
+    font-size: 32.5%;
 }
 
 body {
@@ -75,7 +75,7 @@ body {
     list-style: none;
     margin-left: 1.5rem;
     margin-bottom: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .menu-items a {
@@ -92,7 +92,7 @@ body {
 
 .logo {
     order: 1;
-    font-size: 2.3rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
 
@@ -110,7 +110,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-    font-size: 1.6rem;
+    font-size: 1.1rem;
 }
 
 .main-title {
@@ -129,16 +129,16 @@ body {
 }
 
 #about h2 {
-    font-size: 2.3rem;
+    font-size: 1.1rem;
 }
 
 #about p {
-    font-size: 1.2rem;
+    font-size: 11px;
     color: #555;
 }
 
 #about .small {
-    font-size: 1.2rem;
+    font-size: 11px;
     color: #666;
     font-weight: 600;
 }
@@ -185,6 +185,26 @@ body {
     overflow: hidden;
 }
 
+.acces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.acces button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+}
+
+.acces a {
+    text-decoration: none;
+    color: white;
+}
+
 #footer h2 {
     text-align: center;
     font-size: 1.6rem;
@@ -192,50 +212,4 @@ body {
     font-weight: 500;
     color: #fff;
     background: #333;
-}
-
-@media screen and (max-width: 768px) {
-    .menu-items {
-        /* Masquez le menu de navigation par défaut */
-        flex-direction: column;
-        /* Affichez les éléments du menu en colonne */
-        position: absolute;
-        /* Position absolue pour le menu burger */
-        top: 50px;
-        /* Ajustez la position verticale en fonction de votre en-tête */
-        left: 0;
-        background: #fff;
-        width: 100%;
-        box-shadow: 0px 5px 10px 0px #aaa;
-        opacity: 0.85;
-        z-index: 12;
-    }
-    .menu-items.active {
-        display: flex;
-        /* Affichez le menu burger lorsque la classe "active" est appliquée */
-    }
-    .menu-items li {
-        /* Vos styles existants */
-        margin: 1rem 0;
-        /* Ajoutez de l'espace entre les éléments du menu */
-    }
-    .hamburger-lines {
-        display: block;
-        /* Affichez les lignes du menu burger */
-        cursor: pointer;
-        position: absolute;
-        top: 20px;
-        /* Ajustez la position verticale en fonction de votre en-tête */
-        right: 20px;
-        /* Ajustez la position horizontale en fonction de votre en-tête */
-        z-index: 13;
-        /* Placez-le au-dessus du menu burger */
-    }
-    .line {
-        width: 30px;
-        height: 4px;
-        background: #444;
-        margin: 6px auto;
-        transition: background 0.3s ease-in-out;
-    }
 }
