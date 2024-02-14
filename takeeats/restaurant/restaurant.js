@@ -26,6 +26,8 @@ $.ajax({
                 const street_number = $("<p>").addClass("card-text").text(restaurant.street_number);
                 const description = $("<p>").addClass("card-text").text(restaurant.description);
                 const reservationbtn = $("<button>").addClass("btn btn-primary").text("Réserver");
+                // const voirplus = $("<button>").addClass("btn btn-primary").text("");
+
 
                 // Ajoutez les éléments au cadre Bootstrap
                 cardBody.append(name, postal_code, street_name, street_number, description, reservationbtn);
@@ -39,7 +41,7 @@ $.ajax({
 
                 reservationbtn.click(() => {
                     // Je redirige vers la page du formulaire
-                    window.location.replace("manage_resto_user/manage_resto_user.html?id_restaurant=" + restaurant.id_restaurant);
+                    window.location.replace("manage_resto_user/manage_resto_user.php?id_restaurant=" + restaurant.id_restaurant);
                 });
             });
         }

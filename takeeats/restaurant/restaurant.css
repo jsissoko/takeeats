@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
 .card {
     display: table-cell;
     margin-top: 60px;
@@ -6,7 +10,8 @@
     height: 940px;
     width: max-content;
     border-radius: 5%;
-    background-color: rgb(247, 245, 245);
+    background-color: whitesmoke;
+    box-shadow: 12px 12px 2px 1px rgb(105, 105, 105) opacity transparent;
 }
 
 .card button {
